@@ -186,7 +186,7 @@
         margin-left: 0px;
     }
     .pic{
-        width: auto;
+        width: 350px;
     }
 }
 @media(max-width:340px){
@@ -332,7 +332,7 @@
         margin-top: -50px;
     }
     .pic{
-        width: 260px;
+        width: 350px;
     }
      
 }
