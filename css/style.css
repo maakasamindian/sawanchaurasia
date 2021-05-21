@@ -7,7 +7,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-
 /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
  2) font-family: 'Poppins', sans-serif;
  ----------------------------------------*****/
@@ -23,6 +22,7 @@
 @import url(jquery-ui.css);
 @import url(nice-select.css);
 @import url(/css/HANGED\ LETTERS.TTF);
+
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
@@ -40,7 +40,6 @@ body {
      font-family: 'Roboto', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
-     background-image: linear-gradient(rgb(141, 6, 58),rgb(255, 0, 0));
 }
 
 a {
@@ -754,7 +753,6 @@ button {
 
 .cont {
      text-align: center;
-     margin-top: 31%;
 }
 
 .cont h3 {
@@ -784,7 +782,7 @@ button {
 
 .copyright {
      padding: 20px 0px;
-     background: rgb(255, 252, 104);
+     background: #fffc68;
 }
 
 .copyright p {
@@ -1293,7 +1291,8 @@ button {
 }
 .pic:hover {
      transition: ease-in all 0.1s;
-     background:linear-gradient(#31bebed8,#212121) ;
+     background:rgb(70, 70, 70) ;
+     color: white;
 } 
 
 
@@ -1301,7 +1300,7 @@ button {
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
-	justify-content: space-between;
+	align-items: center;
      margin: 20px 10px;
 }
 .bhia{
@@ -1319,13 +1318,16 @@ button {
      font-variant: small-caps;
      word-wrap: wrap;
 }
+.bhiasqu{
+     border-radius: 6%;
+}
 .dpadmin {
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
    list-style: none;
    align-items: center;
-   margin: 10px 10px 10px -20px;  
+   margin: 0px 0px 10px 0px;  
 }
 .dp{
     border: rgb(252, 62, 62) 3px;
@@ -1337,5 +1339,117 @@ button {
 font-size: 15px;
 font-family:cursive ;
 font-weight: 600;
-color: rgb(0, 0, 0);
+}
+.templ{
+    height: fit-content;	 
+     background:fixed;
+  	border-radius: 10px;
+    box-shadow: #0c0c0c 0px 0px 20px;
+    backdrop-filter: blur(5px);
+   	display: flex;
+  	flex-direction: column;
+  	box-sizing: border-box;
+    margin: 20px 10px;
+    align-items: center;
+    overflow: hidden;
+  }
+  .admina{
+    width: 20%;
+    border-radius:50%;
+  }
+  .divider {
+  background-color: #000000;
+  height: 3px;
+  width: 160px;
+}
+.templ h1{
+  color: #000000;
+  font-variant: small-caps;
+  margin-top:0px;
+  font-size:xx-large;
+  font-family:serif;
+}
+.templ p{
+  padding-left: 20%;
+  padding-right: 20%;
+  word-wrap: break-word;
+}
+.templ :nth-child(1){
+    filter: hue-rotate(0deg);
+}
+.templ:nth-child(2){
+    filter: hue-rotate(110deg);
+}
+.templ span{
+    position: absolute;
+    display: block;
+}
+.templ span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg,transparent,#000000);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+.templ span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 4px;
+    height:100%;
+    background: linear-gradient(180deg,transparent,#000000);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+.templ span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(270deg,transparent,#000000);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
+
+
+.templ span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#000000);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
+    }
 }

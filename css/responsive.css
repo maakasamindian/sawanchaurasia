@@ -102,9 +102,7 @@
         font-size: 20px;
         line-height: 30px;
     }
-    .cont {
-        margin-top: 89%;
-    }
+    
     .main_form {
         margin-bottom: -102%;
         padding: 55px 15px;
@@ -186,7 +184,7 @@
         margin-left: 0px;
     }
     .pic{
-        width: 350px;
+        width: 94%;
     }
 }
 @media(max-width:340px){
@@ -240,9 +238,7 @@
         font-size: 20px;
         line-height: 30px;
     }
-    .cont {
-        margin-top: 89%;
-    }
+    
     .main_form {
         margin-bottom: -102%;
         padding: 55px 15px;
@@ -332,8 +328,42 @@
         margin-top: -50px;
     }
     .pic{
-        width: 350px;
+        width: 94%;
     }
+    .templ{
+    height: fit-content;	 
+     background:fixed;
+  	border-radius: 10px;
+    box-shadow: #0c0c0c 0px 0px 20px;
+    backdrop-filter: blur(5px);
+   	display: flex;
+  	flex-direction: column;
+  	box-sizing: border-box;
+    margin: 20px 10px;
+    align-items: center;
+    overflow: hidden;
+  }
+  .admina{
+    width: 30%;
+    border-radius:50%;
+  }
+  .divider {
+  background-color: #000000;
+  height: 3px;
+  width: 160px;
+}
+.templ h1{
+  color: #000000;
+  font-variant: small-caps;
+  margin-left: 20px;
+  font-size:xx-large;
+  font-family:serif;
+}
+.templ p{
+  padding-left: 20%;
+  padding-right: 20%;
+  word-wrap: break-word;
+}
      
 }
     
