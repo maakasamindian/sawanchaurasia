@@ -266,6 +266,7 @@ button {
 
 /*-- navigation--*/
 
+
 .navigation.navbar {
      float: right;
 }
@@ -1288,6 +1289,7 @@ button {
 	box-sizing: border-box;
      margin: 20px 10px;
      align-items: center;
+     justify-content:space-between;
 }
 .pic:hover {
      transition: ease-in all 0.1s;
@@ -1303,6 +1305,8 @@ button {
 	align-items: center;
      margin: 20px 10px;
 }
+
+     
 .bhia{
      border-radius: 5%;
      height:320px;
@@ -1334,6 +1338,9 @@ button {
     border-style:solid ;
     width: 50px;
     border-radius: 50%; 
+}
+.post-i{
+     margin:20px;
 }
 .dpu{
 font-size: 15px;
@@ -1452,4 +1459,41 @@ font-weight: 600;
     50%,100%{
         bottom: 100%;
     }
+}
+  .callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+.callout-header {
+  padding: 25px 15px;
+  background: #555;
+  font-size: 30px;
+  color: white;
+}
+
+.callout-container {
+  padding: 15px;
+  background-color: #ccc;
+  color: black;
+ 
+}
+.dddd{
+   color: blue;
+}
+
+.bclosebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.bclosebtn:hover {
+  color: rgb(0, 255, 42);
 }

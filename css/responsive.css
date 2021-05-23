@@ -330,6 +330,13 @@
     .pic{
         width: 94%;
     }
+    .bhia{
+        margin-left:15px;
+        margin-right: 15px;
+    }
+    .post-i{
+        margin: 5px;
+    }
     .templ{
     height: fit-content;	 
      background:fixed;
@@ -364,10 +371,27 @@
   padding-right: 20%;
   word-wrap: break-word;
 }
+.callout {
+  position: fixed;
+    right: 0px;
+    margin: 0px;
+    bottom:0px;
+}
+.callout-header{
+    font-size:20px;
+    padding: 20px 15px;
+    background: #555;
+    color: white;
+}
+.callout-container p {
+    margin: 0px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
      
 }
     
-
+}
     
 
     
