@@ -126,10 +126,10 @@
        background-clip:content-box,border-box;
     }
     .ytigfb{
-        margin-left: 30%;
         display: flex;
-        width: 40%;
-    }   
+        width: 37px;
+        top: 190px;
+    }      
     .ytigfb1{
         width: auto;
     }
@@ -183,9 +183,22 @@
     .bhia{
         margin-left: 0px;
     }
-    .pic{
-        width: 94%;
-    }
+    .abosa{
+    padding: 20px;
+    padding-top: 20%;
+}
+.carf{
+    width: auto;
+    height: auto;
+}
+.anim{
+    width:95%;
+}
+.carf .carf-box .img{
+    width:90px;
+    height:90px;
+}
+
 }
 @media(max-width:340px){
    .header {
@@ -264,9 +277,8 @@
     }
     
     .ytigfb{
-        margin-left: 30%;
         display: flex;
-        width: 40%;
+        width: 35px;
     }   
     .ytigfb1{
         width: auto;
@@ -389,6 +401,21 @@
     font-size: 15px;
     line-height: 20px;
      
+}
+.abosa{
+    padding: 20px;
+    padding-top: 20%;
+}
+.carf{
+    width: auto;
+    height: auto;
+}
+.anim{
+    width:95%;
+}
+.carf .carf-box .img{
+    width:90px;
+    height:90px;
 }
     
 }

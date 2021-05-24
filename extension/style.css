@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'segoe ui';
+  background: #fbfbfb;
+}
+
+.carf {
+  transform: translate(-50%, -50%);
+  width: 300px;
+  min-height:400px;
+  background:#fff;
+  box-shadow:0 0px  50px rgb(0,0,0,.3);
+  border-radius:10px;
+  transition:0.5s;
+}
+.carf:hover{
+ box-shadow:0 0px 150px 20px rgba(0,0,0,.3);
+}
+.carf .carf-box{
+  transform:translateY(-50%);
+  text-align: center;
+  padding: 20px;
+  box-sizing:border-box;
+  width: 100%;
+}
+
+.carf .carf-box .img{
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  border-radius:50%;
+  overflow:hidden;
+}
+
+.carf .carf-box .img img{
+  width: 100%;
+}
+
+.carf .carf-box h2{
+  font-size:20px;
+  color:#262626;
+}
+
+.carf .carf-box h2 span{
+  font-size:14px;
+  background:#1e88e5;
+  color:#e0e0e0 ;
+  display: inline-block;
+  padding: 4px 6px;
+  border-radius:14px;
+}
+
+.carf .carf-box ul{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.carf .carf-box ul li{
+  list-style:none;
+  float:left;
+}
+
+.carf .carf-box ul li a{
+  display: block;
+  color: #aaa;
+  margin: 0px 10px;
+  font-size:20px;
+  transition:0.4s;
+  text-align: center;
+}
+
+.carf .carf-box ul li a:hover{
+  color: #1e88e5;
+}
+
+.carf .carf-box p{
+  color: #262626;
+}
